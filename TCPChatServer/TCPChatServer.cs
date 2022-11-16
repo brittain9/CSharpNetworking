@@ -71,11 +71,12 @@ namespace TCPChatServer
             {
                 // Check for new clients
                 if (_listener.Pending())
-                    _handleNewConnection();
+                    _handleNewConnections();
+                    
 
                 // Do the rest
                 _checkForDisconnects();
-                _checkforNewMessages();
+                _checkForNewMessages();
                 _sendMessages();
 
                 // Use less CPU
@@ -84,7 +85,7 @@ namespace TCPChatServer
             // Stop the server, clean up clients
             foreach (TcpClient v in _viewers)
             {
-                _cleanupClient(v)
+                _cleanupClient(v);
             }
             foreach (TcpClient m in _messengers)
                 _cleanupClient(m);
