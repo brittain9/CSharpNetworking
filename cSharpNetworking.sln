@@ -5,7 +5,13 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClient", "HttpClient\HttpClient.csproj", "{84D62191-30F2-4F21-8C48-447B862608B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpListener", "HttpListener\HttpListener.csproj", "{C770CFAF-289D-4021-A3AB-7144BEBC977A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpListener", "HttpListener\HttpListener.csproj", "{C770CFAF-289D-4021-A3AB-7144BEBC977A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPChatServer", "TCPChatServer\TCPChatServer.csproj", "{B9FA8145-3207-4D74-9F73-3EA0117046E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPChatMessenger", "TCPChatMessenger\TCPChatMessenger.csproj", "{C3745478-54EE-483A-80F7-122A52B1CC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPChatViewer", "TCPChatViewer\TCPChatViewer.csproj", "{C8592018-A6E1-451C-9A23-8B94C5F0F604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{C770CFAF-289D-4021-A3AB-7144BEBC977A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C770CFAF-289D-4021-A3AB-7144BEBC977A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C770CFAF-289D-4021-A3AB-7144BEBC977A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FA8145-3207-4D74-9F73-3EA0117046E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FA8145-3207-4D74-9F73-3EA0117046E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FA8145-3207-4D74-9F73-3EA0117046E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FA8145-3207-4D74-9F73-3EA0117046E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3745478-54EE-483A-80F7-122A52B1CC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3745478-54EE-483A-80F7-122A52B1CC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3745478-54EE-483A-80F7-122A52B1CC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3745478-54EE-483A-80F7-122A52B1CC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8592018-A6E1-451C-9A23-8B94C5F0F604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8592018-A6E1-451C-9A23-8B94C5F0F604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8592018-A6E1-451C-9A23-8B94C5F0F604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8592018-A6E1-451C-9A23-8B94C5F0F604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
