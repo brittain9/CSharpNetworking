@@ -98,7 +98,7 @@ namespace TCPGames
                     _gameThreads.Add(gameThread);
 
                     // Create a new game
-                    _nextGame = new GuessMyNumberGame();
+                    _nextGame = new GuessMyNumberGame(this);
                 }
 
                 // Check if any clients have disconnected in waiting, gracefully or not
@@ -307,7 +307,7 @@ namespace TCPGames
         public static void Main(string[] args)
         {
             // Some arguments
-            string name = "Bad BBS"; //args[0]
+            string name = "Bad BBS";
             int port = 6000;
 
             // Handler for Ctrl-C press

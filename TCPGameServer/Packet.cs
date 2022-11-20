@@ -20,7 +20,6 @@ namespace TCPGames
     {
         /* Before we shove the packet into the internet tubes out there we need to preprocess
          * Call ToJson() method on packet to get as string. Then encode to UTF-8 and send to byte array
-         *
          */
 
         [JsonProperty("command")]
@@ -58,26 +57,5 @@ namespace TCPGames
         }
     }
 
-    public class TCPGameServer
-    {
-        /*
-         *
-         *
-         */
-
-        private static bool _isDisconnected(TcpClient client)
-        {
-            try
-            {
-                Socket s = client.Client;
-                return s.Poll(10 * 1000, SelectMode.SelectRead) && (s.Available == 0);
-            }
-            catch (SocketException se)
-            {
-                // We got a socket error, assume it's disconnected
-                return true;
-            }
-        }
-    }
 }
 
