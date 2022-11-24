@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPGameServer", "TCPGameSer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compression", "Compression\Compression.csproj", "{E29A9C56-3733-475E-AE57-AE9BE14346DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPFileSender", "UDPSender\UDPFileSender.csproj", "{0D5C53BD-4D88-4508-AA4E-63C6D729EC3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UDPFileSender", "UDPSender\UDPFileSender.csproj", "{0D5C53BD-4D88-4508-AA4E-63C6D729EC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPFileReceiver", "UDPFileReceiver\UDPFileReceiver.csproj", "{EF75DA1F-F5D1-428B-99C5-4A96E663E76C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{0D5C53BD-4D88-4508-AA4E-63C6D729EC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D5C53BD-4D88-4508-AA4E-63C6D729EC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5C53BD-4D88-4508-AA4E-63C6D729EC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF75DA1F-F5D1-428B-99C5-4A96E663E76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF75DA1F-F5D1-428B-99C5-4A96E663E76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF75DA1F-F5D1-428B-99C5-4A96E663E76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF75DA1F-F5D1-428B-99C5-4A96E663E76C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
